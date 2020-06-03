@@ -14,4 +14,9 @@ variable "subnet_cidr_private" {
      default=["172.16.0.32/28","172.16.0.48/28"]
 }
 
+variable "eip" { 
+     default=["172.16.0.37","172.16.0.53"]
+}
+
+
 
